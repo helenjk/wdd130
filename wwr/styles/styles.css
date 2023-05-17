@@ -1,23 +1,67 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Julee&family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
+header{
+    background-color: rgb(223, 255, 255);
+}
+.home-title{
+    font-size: 2em;
+    margin-top: 10px;
+}
+.home-title, h4{
+    color: black;
+}
 nav a{
     text-align: center;
+    font-size: 1em;
     color: black;
     text-decoration: none;
+    padding: 20px;
+    padding-top: 5px;
+    font-family: "Comic Neue", Helvetica, sans-serif;
+}
+nav a:hover{
+    background-color: #7394BC;
+    color: white;
 }
 .logo{
     width: 80px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
+#hero-msg h1{
+    font-family: "Julee";
+}
+#hero-msg h4{
+    font-family: "Comic Neue", Helvetica, sans-serif;
+}
 #hero-img{
     width: 100%;
+}
+.book, .join{
+    color: #C34D06;
+    font-family: "Comic Neue", Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #c4662c;;
+    color: black;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover, .join:hover{
+    background-color: white;
+    color: black;
 }
 .button-box{
     text-align: center;
@@ -25,42 +69,56 @@ nav a{
 main section{
     text-align: center;
 }
-.home-title, h4{
-    color: black;
+main section img{
+    box-sizing: border-box;
 }
 #background{
-    height: 725px;;
+    height: 725px;
+    background-color: #C34D06;
 }
 body{
    background-color: rgb(223, 255, 255); 
+   font-size: 22px;
+   padding:0;
+   margin:0;
 }
-header{
-    background-color: rgb(223, 255, 255);
+h2{
+    margin: 0;
 }
-nav a:hover{
-    background-color: #7394BC;
-    color: white;
-}
-.book, .join{
-    color: #C34D06;
-    text-decoration: none;
-}
-.book:hover, .join:hover{
-    background-color: white;
-    color: black;
-}
-#background{
-    background-color: #C34D06;
+#logo-link{
+    padding-top: 5px;
 }
 .msg{
     background-color: #7394BC;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2, msg p{
     color: black;
 }
+.msg h1, h2{
+    font-family: "Julee";
+}
+.msg p{
+    font-family: "Comic Neue", Helvetica, sans-serif;
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.mountains{
+    margin: 100px 0;
+}
+.card-img{
+    border: 10px solid #c4662c;
+}
 footer{
     background-color: #3C4CCC;
     color: black;
+    font-family: "Comic Neue", Helvetica, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: black;
@@ -74,4 +132,7 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+footer .social img{
+    padding-top: 15px;
 }

@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: steelblue;
+    text-align: left;
+    padding: 20px;
+}
+a{
+    color: white;
+    font-size: 1.3em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a:hover {
+    background-color: white;
+    color: rgb(52, 7, 94);
+}

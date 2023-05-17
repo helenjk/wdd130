@@ -112,6 +112,20 @@ nav a {
   text-decoration: none;
   padding: 10px;
 }
+nav{
+  background-color: steelblue;
+  padding: 25px;
+}
+a{
+  margin: 40px;
+  color: white;
+  font-size: 1.5em;
+  padding: 25px;
+}
+a:hover {
+  background-color: white;
+  color: steelblue;
+}
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
