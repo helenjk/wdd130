@@ -63,13 +63,14 @@ nav a:hover{
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
-    color: white;
 }
 #hero-msg h1{
     font-family: "Julee";
+    color: #C34D06;
 }
 #hero-msg h4{
     font-family: "Comic Neue", Helvetica, sans-serif;
+    color: white;
 }
 #hero-img{
     width: 100%;
