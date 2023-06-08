@@ -44,6 +44,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
 }
+h5{
+  font-size: large;
+}
 h2 {
   text-align: center;
 }
@@ -65,7 +68,7 @@ header > h1, header > h2 {
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
-  padding: 1em;
+  
 }
 .colors {
   width: 100%;
