@@ -264,7 +264,6 @@ footer .social img{
     padding-bottom: 50px;
 }
 .img_river1, .img_river2, .img_river3, .img_river4, .img_river5, .img_river6{
-    width: 250px;
     padding-top: 10px;
     border: 10px solid #c4662c;
     transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
