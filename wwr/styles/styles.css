@@ -1,7 +1,7 @@
 /* Importing fonts */
 @import url('https://fonts.googleapis.com/css2?family=Julee&family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap');
 
-#content{
+#content, #content_rivers{
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -209,9 +209,6 @@ footer .social img{
     grid-template-columns: 1fr 1fr;
     grid-gap: 100px;
     box-sizing: border-box;
-    align-items: auto;
-    padding-left: 200px;
-    padding-right: 200px;
     padding-bottom: 200px;
 }
 .rivers-title {
@@ -272,8 +269,8 @@ footer .social img{
     grid-column: 2/3;
 }
 .p1_river1{
-    grid_row: 2/3;
-    grid_column: 2/3;
+    grid-row: 1/2;
+    grid-column: 2/3;
 }
 .p2_river1{
     grid-row: 2/5;
@@ -335,7 +332,7 @@ footer .social img{
 }
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .rivers-grid{
         display: block;
         height: auto;
     }
@@ -355,18 +352,18 @@ footer .social img{
     #hero-msg h4 {
         display: none;
     }
-    .home-title {
+    .home-title, .rivers-title {
         font-size: 25px;
         color: #c4662c; 
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    .rivers-card, .camping-card, .rapids-card{ 
         margin: 50px auto;
         width: 60%;
     }
     #background {
         display: none;
     }
-    .mountains, .msg {
+    .mountains, .msg, .instructions {
         width: 80%;
         display: block;
         margin: 0 auto;
