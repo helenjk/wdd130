@@ -332,13 +332,14 @@ footer .social img{
 }
 
 /* Contact us page */
+
 form {
     /* Center the form on the page */
     margin: 0 auto;
     width: 600px;
     /* Form outline */
     padding: 1em;
-    margin-top: 100px;
+    margin-top: 120px;
     border: 3px solid #C34D06;
     border-radius: 1em;
   }
@@ -404,20 +405,22 @@ button {
     font-family: "Comic Neue", Helvetica, sans-serif;
   }
 
-  #feedback {
+#feedback {
     background-color:rgb(223, 255, 255); 
     position: absolute;
-    top: 0;
+    top: 100px;
     left: 0;
     right: 0;
     padding: .5em;
     /* make this element invisible until we are ready for it */
-    display: none;      
+    display: none;     
+    text-align: center; 
+    font-family: "Comic Neue", Helvetica, sans-serif;
+    font-size: 1.2em;
+    color:#C34D06;
+    text-decoration: underline;
     }
 
-.moveDown {
-        margin-top: 3em;
-    }
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid, .rivers-grid{
