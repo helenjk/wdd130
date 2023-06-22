@@ -30,7 +30,7 @@ header{
       position: fixed; /* Fixed Sidebar (stay in place on scroll) */
       z-index: 1; /* Stay on top */
       top: 0; /* Stay at the top */
-      background-color: #a5a58d; 
+      background-color: #a36445; 
       overflow-x: hidden; /* Disable horizontal scroll */
       padding-top: 50px;
     }
@@ -74,11 +74,11 @@ header{
     z-index: -1; /* Stay on top */
     top: 500; /* Stay at the top */
     margin-left: 1350px;
-    background-color: #a51515; /* Black */
+    background-color: #a36445; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
     text-align: center;
-    color: white;
+    color: black;
 }
     
 .sidewho h2{
@@ -94,7 +94,7 @@ header{
 }
 
 .sidewho a{
-    color: white;
+    color: black;
     text-decoration: none;
     /*padding-left: 300px;*/
 }
@@ -136,8 +136,8 @@ header{
 }
 
 footer{
-    background-color: #a51515;
-    color: white;
+    background-color: #a36445;
+    color: black;
     font-family: var(--paragraph-font);
     font-size: 1.3em;;
     margin-left: 160px;
@@ -147,11 +147,11 @@ footer{
     justify-content: space-around;
 }
 footer a{
-    color: white;
+    color: black;
 }
 
 footer a:hover{
-    color: black;
+    color: white;
 }
 
 /* Resources Page */
