@@ -68,13 +68,12 @@ header{
 
 /* The sidebar Who */
 .sidewho {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 250px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: -1; /* Stay on top */
-    top: 500; /* Stay at the top */
+    height: 100%; 
+    width: 250px; 
+    position: fixed; 
+    z-index: -1; 
     margin-left: 1350px;
-    background-color: #a36445; /* Black */
+    background-color: #a36445; 
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
     text-align: center;
