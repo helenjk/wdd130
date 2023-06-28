@@ -40,7 +40,7 @@ header{
 .sidenav a {
       padding: 6px 8px 6px 16px;
       text-decoration: none;
-      font-size: 25px;
+      font-size: 1.5em;
       color: #030303;
       display: block;
     }
@@ -75,7 +75,6 @@ header{
     margin-left: 1350px;
     background-color: #a36445; 
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
     text-align: center;
     color: black;
 }
@@ -90,11 +89,11 @@ header{
 .sidewho p{
     font-family: var(--paragraph-font);
     padding: 10px 20px;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 .sidewho img{
     width: 130px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .sidewho a{
