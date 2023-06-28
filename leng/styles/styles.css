@@ -40,7 +40,7 @@ header{
 .sidenav a {
       padding: 6px 8px 6px 16px;
       text-decoration: none;
-      font-size: 1.5em;
+      font-size: 1.3em;
       color: #030303;
       display: block;
     }
@@ -72,7 +72,7 @@ header{
     height: 100%; 
     width: 250px; 
     position: fixed; 
-    margin-left: 1350px;
+    margin-left: 1350px;;
     background-color: #a36445; 
     overflow-x: hidden; /* Disable horizontal scroll */
     text-align: center;
@@ -451,9 +451,25 @@ button {
     text-decoration: underline;
     }
 
-    /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-    @media screen and (max-height: 450px) {
-      .sidenav {padding-top: 15px;}
-      .sidenav a {font-size: 18px;}
-    }
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  
+  @media screen and (max-width: 900px) {
+      .home_content, .resources_content, .tips_content{
+          display: block;
+          height: auto;
+      }
+      .sidenav, .sidewho, .main_part, footer {
+          flex-direction: column;
+      }
+      .sidenav a, .sidewho p {
+          display: block;
+          padding: 15px;
+      }
+      
+      footer {
+          margin-top: 25px;
+      }
+  }
+  
+  
     
