@@ -25,13 +25,13 @@ header{
   
 /* The sidebar menu */
 .sidenav {
-      height: 100%; 
-      width: 160px; 
-      position: fixed; 
-      z-index: 1; 
-      top: 0; 
+      height: 100%; /* Full-height: remove this if you want "auto" height */
+      width: 160px; /* Set the width of the sidebar */
+      position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+      z-index: 1; /* Stay on top */
+      top: 0; /* Stay at the top */
       background-color: #a36445; 
-      overflow-x: hidden; 
+      overflow-x: hidden; /* Disable horizontal scroll */
       padding-top: 50px;
     }
     
@@ -51,6 +51,7 @@ header{
 
 header{
     margin-top: 0;
+    /*background-color: #a5a58d;*/
     margin-left: 160px;
 }
 .logo{
@@ -81,19 +82,14 @@ header{
     
 .sidewho h2{
     font-family: var(--heading-font);
-    color:  white;
-    font-size: 1.5em;
-    text-align: center;
-    padding-top: 20px;
 }
 .sidewho p{
     font-family: var(--paragraph-font);
-    padding: 10px 20px;
+    padding: 20px;
     font-size: 1.3em;
 }
 .sidewho img{
     width: 130px;
-    padding-top: 30px;
 }
 
 .sidewho a{
@@ -102,132 +98,67 @@ header{
     /*padding-left: 300px;*/
 }
 .sidewho a:hover{
-    color: white;
+    color: black;
 }
 
 /* Style page content */
 .main_part{
+    width: 1190px;
+    margin-left: 250px; 
+    margin-top: 100px;
     padding-top: 300px;
     padding: 0px 10px;
 }
     
-.main_part h1, h2, h3{
-    color:#c32f27;
+.main_part h1{
+    color:#a51515;
     font-family: var(--heading-font);
-    font-size: 1.7em;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-size: 1.5em;
 }
-
 #first-img{
-    display: block;
+    text-align: center;
     width: 550px;
-    margin: auto;
-    padding-bottom: 20px;
+    padding-left: 200px;
 }
 
 .paragraphE{
     font-family: var(--paragraph-font);
     font-size: 1.3em;
-    color: black;
+    width: 900px
 }
 .paragraphP{
     font-family: var(--paragraph-font);
     font-size: 1.3em;
     color: #5c5c4e;
+    width: 900px;
     padding-left: 50px;
-}
-.block1{
-  display: block;
-  margin: 0 auto;
-  margin-left: 200px;
-  margin-right: 300px;
-}
-
-.block2{
-  display: grid;
-  grid-template-columns: 3fr 3fr 2fr;
-  grid-template-rows: 2fr 2fr;
-  grid-gap: 20px;
-}
-#second-img{
-  margin-left: 160px;
-  width: 800px;
-  grid-column: 1/2;
-  grid-row: 1/3;
-}
-.block2 .paragraphE{
-  grid-column: 2/3;
-  grid-row: 1/2;
-  padding-top: 30px;
-  padding-left: 30px;
-}
-.block2 .paragraphP{
-  grid-column: 2/3;
-  grid-row: 2/3;
-  padding-left: 30px;
-}
-
-.block3{
-  display: grid;
-  grid-template-columns: 1fr 3fr 3fr 2fr;
-  grid-template-rows: 2fr 2fr;
-  grid-gap: 20px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-}
-
-.block3 .paragraphE{
-  grid-column: 2/3;
-  grid-row: 1/2;
-}
-.block3 .paragraphP{
-  grid-column: 2/3;
-  grid-row: 2/3;
-}
-#third-img{
-  width: 400px;
-  grid-column: 3/4;
-  grid-row: 1/3;
-  padding-left: 100px;
 }
 
 footer{
-  height: 100%;
-  background-color: #a36445;
-  color: black;
-  font-family: var(--paragraph-font);
-  font-size: 1.3em;;
-  margin-left: 160px;
-  padding: 30px;
-  /*margin-top: 200px;*/
-  display:flex;
-}
-footer label{
-  width: 700px;
-  text-align: left;
+    background-color: #a36445;
+    color: black;
+    font-family: var(--paragraph-font);
+    font-size: 1.3em;;
+    margin-left: 160px;
+    padding: 20px;
+    /*margin-top: 200px;*/
+    display: flex;
+    justify-content: space-around;
 }
 footer a{
     color: black;
 }
+
 footer a:hover{
     color: white;
 }
 
 /* Resources Page */
 
-.main_resources h1{
-  color:#c32f27;
-  font-family: var(--heading-font);
-  font-size: 1.7em;
-  text-align: center;
-  padding-top: 20px;
-}
 .tab1 {
   overflow: hidden;
-  border: 1px solid #a5a58d;
-  background-color: #c7c7b5;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -245,27 +176,27 @@ footer a:hover{
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: white;
+  background-color: #ddd;
 }
 
 /* Create an active/current tablink class */
 .tab1 button.active {
-  background-color: white;
+  background-color: #ccc;
 }
 
 /* Style the tab content */
 .tab1content {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #a5a58d;
+  border: 1px solid #ccc;
   border-top: none;
   padding-left: 200px;
 }
 
 .tab2 {
   overflow: hidden;
-  border: 1px solid #a5a58d;
-  background-color: #c7c7b5;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -282,19 +213,19 @@ footer a:hover{
 
 /* Change background color of buttons on hover */
 .tab2 button:hover {
-  background-color: white;
+  background-color: #ddd;
 }
 
 /* Create an active/current tablink class */
 .tab2 button.active {
-  background-color: white;
+  background-color: #ccc;
 }
 
 /* Style the tab content */
 .tab2content {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #a5a58d;
+  border: 1px solid #ccc;
   border-top: none;
   padding-left: 200px;
 }
@@ -396,13 +327,13 @@ input,  textarea {
     box-sizing: border-box;
   
     /* Match form field borders */
-    border: 2px solid #c32f27;
+    border: 2px solid #a51515;
   }
   
 input:focus,
   textarea:focus {
     /* Additional highlight for focused elements */
-    border-color: #c32f27;
+    border-color: #a51515;
   }
   
 textarea {
@@ -439,7 +370,7 @@ button {
     text-align: center; 
     font-family: var(--paragraph-font);
     font-size: 1.5em;
-    color:#c32f27;
+    color:#a51515;
     text-decoration: underline;
     }
 
