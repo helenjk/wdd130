@@ -40,7 +40,7 @@ header{
 .sidenav a {
       padding: 6px 8px 6px 16px;
       text-decoration: none;
-      font-size: 1.3em;
+      font-size: 1.4em;
       color: #030303;
       display: block;
     }
@@ -120,7 +120,7 @@ header{
     padding-bottom: 20px;
 }
 
-#first-img{
+#advantages-img{
     display: block;
     width: 550px;
     margin: auto;
@@ -151,12 +151,13 @@ header{
   grid-template-rows: 2fr 2fr;
   grid-gap: 20px;
 }
-#second-img{
+#diagram-img{
   margin-left: 160px;
   width: 800px;
   grid-column: 1/2;
   grid-row: 1/3;
 }
+
 .block2 .paragraphE{
   grid-column: 2/3;
   grid-row: 1/2;
@@ -175,7 +176,7 @@ header{
   grid-template-rows: 2fr 2fr;
   grid-gap: 20px;
   padding-bottom: 50px;
-  padding-left: 50px;
+  padding-left: 20px;
 }
 
 .block3 .paragraphE{
@@ -186,7 +187,7 @@ header{
   grid-column: 2/3;
   grid-row: 2/3;
 }
-#third-img{
+#keepfocus-img{
   width: 400px;
   grid-column: 3/4;
   grid-row: 1/3;
@@ -198,7 +199,7 @@ footer{
   background-color: #a36445;
   color: black;
   font-family: var(--paragraph-font);
-  font-size: 1.3em;;
+  font-size: 1.1em;;
   margin-left: 160px;
   padding: 30px;
   /*margin-top: 200px;*/
@@ -215,7 +216,7 @@ footer a:hover{
     color: white;
 }
 
-/* Resources Page */
+/* ** Resources Page ** */
 
 .main_resources h1{
   color:#c32f27;
@@ -224,14 +225,23 @@ footer a:hover{
   text-align: center;
   padding-top: 20px;
 }
-.tab1 {
+
+#labyrinth-img{
+  display: block;
+  width: 600px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.tab1, .tab2 {
   overflow: hidden;
   border: 1px solid #a5a58d;
   background-color: #c7c7b5;
 }
 
 /* Style the buttons that are used to open the tab content */
-.tab1 button {
+.tab1 button, .tab2 button {
   background-color: inherit;
   float: left;
   border: none;
@@ -241,67 +251,72 @@ footer a:hover{
   transition: 0.3s;
   margin-left: 200px;
   font-family: var(--paragraph-font);
-  align-items: center;
+  color:black;
+  font-size: 1.3em;
+  align-items: left;
 }
 
 /* Change background color of buttons on hover */
-.tab button:hover {
+.tab1 button:hover, .tab2 button:hover {
   background-color: white;
 }
 
 /* Create an active/current tablink class */
-.tab1 button.active {
+.tab1 button.active, .tab2 button.active {
   background-color: white;
 }
 
 /* Style the tab content */
-.tab1content {
+.tab1content, .tab2content {
   display: none;
   padding: 6px 12px;
   border: 1px solid #a5a58d;
   border-top: none;
   padding-left: 200px;
-}
-
-.tab2 {
-  overflow: hidden;
-  border: 1px solid #a5a58d;
-  background-color: #c7c7b5;
-}
-
-/* Style the buttons that are used to open the tab content */
-.tab2 button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
   font-family: var(--paragraph-font);
-  transition: 0.3s;
-  margin-left: 200px;
+  font-size: 1.2em;
 }
 
-/* Change background color of buttons on hover */
-.tab2 button:hover {
-  background-color: white;
+.tab1content h3, p{
+  font-size: 1.3em;
 }
 
-/* Create an active/current tablink class */
-.tab2 button.active {
-  background-color: white;
+.tab2content h3, p{
+  font-size: 1.3em;
+}
+  
+.res-block1{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 3fr 2fr;
+  grid-template-rows: 2fr 2fr;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
 }
 
-/* Style the tab content */
-.tab2content {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #a5a58d;
-  border-top: none;
-  padding-left: 200px;
+#climbing-img{
+  width: 500px;
+  height: 500px;
+  grid-column: 2/3;
+  grid-row: 1/4;
+  padding-left: 100px;
+}
+.res-block1 #title-climbing{
+  grid-column: 4/6;
+  grid-row: 1/2;
+  text-align: left;
+}
+.res-block1 .paragraphE{
+  grid-column: 4/6;
+  grid-row: 2/3;
+}
+.res-block1 .paragraphP{
+  grid-column: 4/6;
+  grid-row: 3/4;
 }
 
-/* Tips Page */
+
+/* ** Tips Page ** */
 .main-tips p{
   font-family: var(--paragraph-font);
 }
