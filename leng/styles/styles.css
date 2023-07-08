@@ -58,7 +58,12 @@ header{
     width: 130px;
     padding-left: 50px;
 }
-    
+
+.logo:hover{
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
 .title{
     font-family: var(--heading-font);
     padding-left: 200px;
