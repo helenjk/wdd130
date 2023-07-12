@@ -11,11 +11,6 @@
     margin: 0 auto;
   }
 
-/* #396E94, #E7C24F #A43312 
---primary-color: #a36445;
-  --secondary-color: #a5a58d;
-  --accent1-color: black;
-  --accent2-color: #c32f27; */
 header{
     display: grid;
     grid-template-columns: 150px auto;
@@ -45,7 +40,6 @@ header{
       display: block;
     }
 
-/* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
     color: white;
 }
@@ -72,16 +66,22 @@ header{
 
 
 /* The sidebar Who  width: 250px z-index: -1; 
-    */
-.sidewho {
-    height: 100%; 
+ height: 100%; 
     width: 250px; 
+margin-left: 1350px;
+         position: fixed;   
+*/
+.sidewho {
+    height: 85%; 
+    width: 12%; 
     position: fixed; 
-    margin-left: 1350px;;
     background-color: #a36445; 
-    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-x: hidden; 
     text-align: center;
     color: black;
+    bottom: 0;
+    right: 260px;
+    z-index: 10;
 }
     
 .sidewho h2{
@@ -104,13 +104,11 @@ header{
 .sidewho a{
     color: black;
     text-decoration: none;
-    /*padding-left: 300px;*/
 }
 .sidewho a:hover{
     color: white;
 }
 
-/* Style page content */
 .main_part{
     padding-top: 300px;
     padding: 0px 10px;
