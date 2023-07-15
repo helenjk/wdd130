@@ -64,24 +64,16 @@ header{
     font-size: 3em;
 }
 
-
-/* The sidebar Who  width: 250px z-index: -1; 
- height: 100%; 
-    width: 250px; 
-margin-left: 1350px;
-         position: fixed;   
-*/
 .sidewho {
-    height: 85%; 
-    width: 12%; 
+    height: 100%; 
+    width: 250px; 
     position: fixed; 
+    margin-left: 1350px;
     background-color: #a36445; 
     overflow-x: hidden; 
     text-align: center;
     color: black;
     bottom: 0;
-    right: 280px;
-    z-index: 10;
 }
     
 .sidewho h2{
