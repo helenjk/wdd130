@@ -22,7 +22,7 @@ header{
 .sidenav {
       height: 100%; 
       font-family: var(--paragraph-font);
-      width: 160px; 
+      width: 180px; 
       position: fixed; 
       z-index: 1; 
       top: 0; 
@@ -44,9 +44,38 @@ header{
     color: white;
 }
 
+.sidenav h2{
+  font-family: var(--heading-font);
+  color:  white;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 10px;
+}
+.sidenav p{
+  font-family: var(--paragraph-font);
+  text-align: center;
+  padding: 0px 15px;
+  font-size: 1.3em;
+}
+.sidenav img{
+  width: 130px;
+  padding-top: 40px;
+  padding-left: 20px;
+  
+}
+
+.sidenav a{
+  color: black;
+  text-decoration: none;
+}
+.sidenav a:hover{
+  color: white;
+}
+
+
 header{
     margin-top: 0;
-    margin-left: 160px;
+    margin-left: 250px;
 }
 .logo{
     width: 130px;
@@ -62,43 +91,6 @@ header{
     font-family: var(--heading-font);
     padding-left: 200px;
     font-size: 3em;
-}
-
-.sidewho {
-    height: 100%; 
-    width: 250px; 
-    position: fixed; 
-    margin-left: 1350px;
-    background-color: #a36445; 
-    overflow-x: hidden; 
-    text-align: center;
-    color: black;
-    bottom: 0;
-}
-    
-.sidewho h2{
-    font-family: var(--heading-font);
-    color:  white;
-    font-size: 1.5em;
-    text-align: center;
-    padding-top: 20px;
-}
-.sidewho p{
-    font-family: var(--paragraph-font);
-    padding: 10px 20px;
-    font-size: 1.3em;
-}
-.sidewho img{
-    width: 130px;
-    padding-top: 50px;
-}
-
-.sidewho a{
-    color: black;
-    text-decoration: none;
-}
-.sidewho a:hover{
-    color: white;
 }
 
 .main_part{
@@ -136,7 +128,7 @@ header{
 .block1{
   display: block;
   margin: 0 auto;
-  margin-left: 200px;
+  margin-left: 300px;
   margin-right: 300px;
 }
 
@@ -147,7 +139,7 @@ header{
   grid-gap: 20px;
 }
 #diagram-img{
-  margin-left: 160px;
+  margin-left: 260px;
   width: 800px;
   grid-column: 1/2;
   grid-row: 1/3;
@@ -167,7 +159,7 @@ header{
 
 .block3{
   display: grid;
-  grid-template-columns: 1fr 3fr 3fr 2fr;
+  grid-template-columns: 1fr 1fr 3fr 3fr 2fr;
   grid-template-rows: 2fr 2fr;
   grid-gap: 20px;
   padding-bottom: 50px;
@@ -175,16 +167,16 @@ header{
 }
 
 .block3 .paragraphE{
-  grid-column: 2/3;
+  grid-column: 3/4;
   grid-row: 1/2;
 }
 .block3 .paragraphP{
-  grid-column: 2/3;
+  grid-column: 3/4;
   grid-row: 2/3;
 }
 #keepfocus-img{
   width: 400px;
-  grid-column: 3/4;
+  grid-column: 4/5;
   grid-row: 1/3;
   padding-left: 100px;
 }
@@ -196,13 +188,12 @@ footer{
   font-family: var(--paragraph-font);
   font-size: 1.1em;;
   margin-left: 160px;
-  padding: 30px;
-  /*margin-top: 200px;*/
+  padding: 50px;
   display:flex;
 }
 footer label{
   width: 700px;
-  text-align: left;
+  text-align: center;
 }
 footer a{
     color: black;
